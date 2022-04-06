@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import UsersService from '../services/users.serivece';
+import UsersService from '../services/users.service';
 
 export default class UsersController {
   private userService: UsersService;
