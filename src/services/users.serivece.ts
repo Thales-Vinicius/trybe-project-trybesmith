@@ -1,7 +1,7 @@
 import jwtGenerator from '../helpers/jwtGenerator';
 import { IUsers } from '../interfaces/users.interfaces';
 import connection from '../models/connection';
-import UsersModels from '../models/users.models';
+import UsersModels from '../models/users.model';
 
 export default class UsersService {
   private usersModels: UsersModels;
